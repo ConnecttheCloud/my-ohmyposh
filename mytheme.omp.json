@@ -9,18 +9,18 @@
       "segments": [
         // Yellow color code #e8d212  blue color code #40189c
         {
-          "leading_diamond": "<transparent,#e8d212>\ue0b0</>",
+          "leading_diamond": "<transparent,#40189c>\ue0b0</>",
           "trailing_diamond": "\ue0b0",
-          "background": "#e8d212",
-          "foreground": "#000000",
+          "background": "#40189c",
+          "foreground": "#dcd9d9",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
           "template": "{{ if .WSL }}WSL {{ end }}{{.Icon}} ",
           "type": "os"
         },
         {
-          "background": "#e8d212",
-          "foreground": "#000000",
+          "background": "#40189c",
+          "foreground": "#dcd9d9",
 	        // "leading_diamond": "<transparent,#e8d212>\ue0b0</>",
           "trailing_diamond": "\ue0b0",
           "style": "diamond",
@@ -29,8 +29,8 @@
         },
         {
           "type": "session",
-          "background": "#e8d212",
-          "foreground": "#000000",
+          "background": "#40189c",
+          "foreground": "#dcd9d9",
           "style": "diamond",
           "template": "| {{ .UserName }}@{{ .HostName }} ",
           "type": "session",
