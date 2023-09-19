@@ -7,11 +7,11 @@
       "type": "prompt",
       "alignment": "left",
       "segments": [
-        // Yellow color code #e8d212
+        // Yellow color code #e8d212  blue color code #40189c
         {
-          "leading_diamond": "<transparent,#40189c>\ue0b0</>",
+          "leading_diamond": "<transparent,#e8d212>\ue0b0</>",
           "trailing_diamond": "\ue0b0",
-          "background": "#40189c",
+          "background": "#e8d212",
           "foreground": "#dcd9d9",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
@@ -19,7 +19,7 @@
           "type": "os"
         },
         {
-          "background": "#40189c",
+          "background": "#e8d212",
           "foreground": "#dcd9d9",
 	        // "leading_diamond": "<transparent,#e8d212>\ue0b0</>",
           "trailing_diamond": "\ue0b0",
@@ -29,7 +29,7 @@
         },
         {
           "type": "session",
-          "background": "#40189c",
+          "background": "#e8d212",
           "foreground": "#dcd9d9",
           "style": "diamond",
           "template": "| {{ .UserName }}@{{ .HostName }} ",
