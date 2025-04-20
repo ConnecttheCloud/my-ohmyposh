@@ -30,6 +30,8 @@ zinit light zsh-users/zsh-completions
 zinit light marlonrichert/zsh-autocomplete
 zinit light fdellwing/zsh-bat
 zinit light MichaelAquilina/zsh-you-should-use
+#zinit light zsh-users/zsh-bat
+#zinit light zsh-users/zsh-youshoulduse
 #zinit light zsh-users/zsh-autosuggestions
 #zinit light Aloxaf/fzf-tab
 
@@ -38,7 +40,14 @@ zinit light MichaelAquilina/zsh-you-should-use
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
 zinit snippet OMZP::azure
-zinit snippet OMZP::aws# Load completions
+zinit snippet OMZP::aws
+zinit snippet OMZP::terraform
+zinit snippet OMZP::kubectl
+zinit snippet OMZP::azure
+zinit snippet OMZP::command-not-found
+zinit snippet OMZP::web-search
+
+# Load completions
 autoload -Uz compinit && compinit
 
 zinit cdreplay -q
@@ -71,11 +80,3 @@ alias ls='ls --color'
 #alias vim='nvim'
 alias c='clear'
 alias ll='ls -alth --color'
-zinit snippet OMZP::terraform
-zinit snippet OMZP::kubectl
-zinit snippet OMZP::azure
-zinit snippet OMZP::command-not-found
-zinit snippet OMZP::web-search
-
-
-
