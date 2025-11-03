@@ -42,7 +42,7 @@ zsh --version || true
 
 # Installing Fabric AI
 curl -fsSL https://raw.githubusercontent.com/danielmiessler/fabric/main/scripts/installer/install.sh | bash
-curl -fsSL https://raw.githubusercontent.com/danielmiessler/Fabric/refs/heads/main/completions/setup-completions.sh | sh
+#curl -fsSL https://raw.githubusercontent.com/danielmiessler/Fabric/refs/heads/main/completions/setup-completions.sh | sh
 
 # Copy Fabric completion file to a directory in your $fpath
 mkdir -p ~/.zsh/completions
