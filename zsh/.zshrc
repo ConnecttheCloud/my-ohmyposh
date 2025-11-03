@@ -75,4 +75,3 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 # Source aliases if present
 [ -f "$HOME/.zsh_aliases" ] && source "$HOME/.zsh_aliases"
 
-EOF
