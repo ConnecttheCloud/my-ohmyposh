@@ -1,4 +1,6 @@
-curl -fSsL https://raw.githubusercontent.com/ConnecttheCloud/my-ohmyposh/refs/heads/main/zsh/install.sh | bash &&
+curl -fSsL https://raw.githubusercontent.com/ConnecttheCloud/my-ohmyposh/refs/heads/main/zsh/install.sh | bash 
+
+`zsh`
 
 # Backup .zshrc file if exist
 ZSHRC="$HOME/.zshrc"
