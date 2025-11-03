@@ -57,12 +57,12 @@ fi
 
 echo "zsh installation steps complete. You may need to log out and log back in."
 
-# Backup existing .zshrc if it exists
-ZSHRC="$HOME/.zshrc"
-if [ -f "$ZSHRC" ]; then
-    echo "Backing up existing .zshrc to .zshrc.backup"
-    mv "$ZSHRC" "$ZSHRC.backup"
-fi
+# # Backup existing .zshrc if it exists
+# ZSHRC="$HOME/.zshrc"
+# if [ -f "$ZSHRC" ]; then
+#     echo "Backing up existing .zshrc to .zshrc.backup"
+#     mv "$ZSHRC" "$ZSHRC.backup"
+# fi
 
 # Create Alias File 
 ALIAS_FILE="$HOME/.zsh_aliases"
