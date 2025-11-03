@@ -10,3 +10,5 @@ mv "$ZSHRC" "$ZSHRC.backup"
 fi
 
 curl -o ~/.zshrc https://raw.githubusercontent.com/ConnecttheCloud/my-ohmyposh/refs/heads/main/zsh/.zshrc
+
+echo "Installation complete: type `zsh` to configure zsh and powerlevel 10k setup"
