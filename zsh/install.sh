@@ -41,12 +41,14 @@ echo "Verifying zsh installation..."
 zsh --version || true
 
 # Installing Fabric AI
+echo "Installing Fabric"
 curl -fsSL https://raw.githubusercontent.com/danielmiessler/fabric/main/scripts/installer/install.sh | bash
-#curl -fsSL https://raw.githubusercontent.com/danielmiessler/Fabric/refs/heads/main/completions/setup-completions.sh | sh
 
-# Copy Fabric completion file to a directory in your $fpath
-mkdir -p ~/.zsh/completions
-cp completions/_fabric ~/.zsh/completions/
+echo "Installing completion"
+#curl -fsSL https://raw.githubusercontent.com/danielmiessler/Fabric/refs/heads/main/completions/setup-completions.sh | sh
+# # Copy Fabric completion file to a directory in your $fpath
+# mkdir -p ~/.zsh/completions
+# cp completions/_fabric ~/.zsh/completions/
 
 # Set zsh as the default shell if not already
 CURRENT_SHELL="$(getent passwd "$USER" 2>/dev/null | cut -d: -f7 || echo "${SHELL:-}")"
